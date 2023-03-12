@@ -15,7 +15,7 @@ For development, a text editor is required, The developers suggest [Visual Studi
 
 [**Google Fonts**](https://fonts.google.com/) - a computer font and web font service owned by Google.
 
-[**Font Awesome Icons](https://fontawesome.com/) - is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
+[**Font Awesome Icons**](https://fontawesome.com/) - is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
 
 ### IMPORTANT CLASSES
 
