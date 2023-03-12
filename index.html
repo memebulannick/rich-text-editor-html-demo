@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RTE to HTML</title>
+        <!-- FontAwesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="toolbar">
+                <!-- Text Format -->
+                <button id="bold" class="toolbar-item format">
+                    <i class="fa-solid fa-bold"></i>
+                </button>
+                <button id="italic" class="toolbar-item format">
+                    <i class="fa-solid fa-italic"></i>
+                </button>
+                <button id="underline" class="toolbar-item format">
+                    <i class="fa-solid fa-underline"></i>
+                </button>
+                <!-- Font -->
+                <select id="fontName" class="adv-toolbar-item"></select>
+                <!-- List -->
+                <button id="insertOrderedList" class="toolbar-item">
+                    <i class="fa-solid fa-list-ol"></i>
+                </button>
+                <button id="insertUnorderedList" class="toolbar-item">
+                    <i class="fa-solid fa-list"></i>
+                </button>
+                <!-- Link -->
+                <button id="createLink" class="adv-toolbar-item">
+                    <i class="fa fa-link"></i>
+                </button>
+                <button id="unlink" class="toolbar-item">
+                    <i class="fa fa-unlink"></i>
+                </button>
+                <button id="formatBlock" class="toolbar-item">
+                    <i class="fa-solid fa-quote-left"></i>
+                </button>
+            </div>
+            <!-- Text Area -->
+            <div id="text-input" contenteditable>
+                <p>Start typing</p>
+            </div>
+            <!-- Get HTML -->
+            <div class="html-container">
+                <button id="html-button">Get HTML</button>
+            </div>
+            <!-- HTML Display -->
+            <div id="html-content"></div>
+        </div>
+        <!--Script-->
+        <script src="script.js"></script>
+    </body>
+</html>
