@@ -9,8 +9,6 @@ let htmlDisplay = document.getElementById("html-content")
 
 var htmlContent = "";
 
-// highlighter(formatButtons, false);
-
 let fontList = [
     "Arial",
     "Verdana",
@@ -23,6 +21,7 @@ let fontList = [
     "Monospace",
 ];
 
+//Function for the "Get HTML" button to display the innerhtml of the text-input area
 htmlButton.addEventListener("click", function() {
     htmlContent = inputContent.innerHTML;
     htmlDisplay.style.display = "block";
@@ -86,7 +85,7 @@ advanceToolButtons.forEach((button) => {
     });
 }); 
 
-//link
+//create link function
 linkButton.addEventListener("click", () => {
     let userLink = prompt("Enter a URL");
     //if link has http then pass directly else add https
@@ -125,6 +124,7 @@ const highlighter = (className, needsRemoval) => {
     });
 };
 
+//Remove Highlight function
 const highlighterRemover = (className) => {
     className.forEach((button) => {
         button.classList.remove("active");
