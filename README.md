@@ -3,5 +3,5 @@ Demo of building a Rich Text Editor from ground up using only HTML, CSS, and Jav
 
 
 
-##### How to use
+#### How to use
 Open index.html using a browser to view demo project.
